@@ -69,7 +69,7 @@ body {
 	display: flex;
 	justify-content: space-between;
 }
-input {
+.search {
 	padding: 4px 10px;
 	border: 0;
 	font-size: 16px;
@@ -408,6 +408,7 @@ form img {
 		border-radius: 5px;
 		width: 252px;
 		margin: -1px 0px 29px -3px;
+        color: #181A31;
 	}
 	.select {
 		margin: 10px 129px 0 0;
