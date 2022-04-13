@@ -25,23 +25,24 @@
                         </div>
                         <nav class="header__top-menu">
                             <ul class="header__top-list">
-                                <li>
-                                    <a href="#">Новости и блог</a>
+                                <li class="header__top-box">
+                                    <a class="header__top-item menu" href="#">Новости и блог</a>
                                 </li>
-                                <li>
-                                    <a href="#">Оплата и доставка</a>
+                                <li class="header__top-box">
+                                    <a class="header__top-item menu" href="#">Оплата и доставка</a>
                                 </li>
-                                <li>
-                                    <a href="#">Контакты</a>
+                                <li class="header__top-box">
+                                    <a class="header__top-item menu" href="#">Контакты</a>
                                 </li>
-                                <li>
-                                    <a href="#">Вакансии</a>
+                                <li class="header__top-box">
+                                    <a class="header__top-item menu" href="#">Вакансии</a>
                                 </li>
                             </ul>
                         </nav>
                         <form>
                             <input type="text" name="text" class="search" placeholder="Поиск...">
-                            <img src="img/search.svg" alt="">
+                            <img class="header__top-search" src="img/search.svg" alt="иконка поиска">
+                            <img class="header__top-search1230" src="img/search1230.svg" alt="иконка поиска">
                         </form>
                     </div>
                 </div>
@@ -51,24 +52,31 @@
                     <div class="header__content-inner">
                         <nav class="header__content-menu">
                             <ul class="header__content-list">
-                                <h1 class="header__content-title">Меню</h1>
-                                <li>
-                                    <a href="#">Каталог</a>
-                                </li>
-                                <li class="header__content-select">
-                                    <input class="header__content-select__input" type="hidden" name="">
-                                    <div class="header__content-select__head">Майнинг отель</div>
-                                    <ul class="header__content-select__list">
-                                        <li class="header__content-select__item header__content-select__item-active">Калининская АЭС</li>
-                                        <li class="header__content-select__item">ПАО “Тулачермет”</li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="#">Лизинг</a>
-                                </li>
-                                <li>
-                                    <a href="#">О компании</a>
-                                </li>
+                                <div class="header__content-top">
+                                    <h1 class="header__content-title">Меню</h1>
+                                </div>
+                                <div class="header__content-layer">
+                                    <li class="header__content-box">
+                                        <a class="header__content-item menu" href="#">Каталог</a>
+                                    </li>
+                                    <li class="header__content-select header__content-box">
+                                        <input class="header__content-select__input" type="hidden" name="">
+                                        <div class="header__content-select_head menu">Майнинг отель</div>
+                                        <ul class="header__content-select__list">
+                                            <li
+                                                class="header__content-select__item header__content-select__item-active menu">
+                                                Калининская АЭС</li>
+                                            <li class="header__content-select__item menu">ПАО “Тулачермет”</li>
+                                        </ul>
+                                    </li>
+                                    <li class="header__content-box">
+                                        <a class="header__content-item menu" href="#">Лизинг</a>
+                                    </li>
+                                    <li class="header__content-box">
+                                        <a class="header__content-item menu" href="#">О компании</a>
+                                    </li>
+                                </div>
+                                
                             </ul>
                         </nav>
                         <div class="header__content-information">
@@ -89,6 +97,8 @@
                                 </div>
                             </div>
                             <div class="header__content-basket">
+                                <img class="header__content-basket-img" src="img/shopping-bag.svg" alt="иконка корзины">
+                                <span class="header__content-goods">2</span>
                                 <p>Корзина</p>
                             </div>
                             <div class="header__btn-menu">
